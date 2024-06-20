@@ -4,3 +4,64 @@
   margin-bottom: 2%;
   width: 60%;
 }
+.about-section{
+  display: flex;
+  justify-content: center;
+}
+.about-text{
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  display: flex;
+  justify-content: flex-start;
+  font-weight: bold;
+}
+.hi-i-am-title{
+  font-family: "Cormorant Garamond", serif;
+  font-size: 80px;
+  color: var(--bg-dark-footer);
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.victoria-title{
+  font-family: "Gaegu", sans-serif;
+  font-size: 90px;
+  color: var(--blue-dark);
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.about-p, .about-list{
+  font-family: "Noto Sans", sans-serif;
+}
+
+.about-p-link-film, .about-p-link-events, .about-p-link-projects, .about-p-link-life, .about-p-link-twt{
+  font-weight: bold;
+}
+.about-p-link-film{
+  color: var(--yellow-dark);
+}
+.about-p-link-events{
+  color: var(--blue-dark);
+}
+.about-p-link-projects{
+  color: var(--purple-dark);
+}
+.about-p-link-life{
+  color: var(--green-light);
+}
+.about-p-link-twt{
+  color: var(--bg-dark-footer);
+}
+
+.empty-space-about{
+  width: 10%;
+}
+.image-placeholder{
+  width: 400px;
+  height: 400px;
+  background-color: lightgrey;
+  align-self: center;
+}

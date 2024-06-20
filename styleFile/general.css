@@ -19,6 +19,9 @@
 body{
   background-color: var(--bg-white);
 }
+p{
+  color: var(--bg-black);
+}
 
 .coming-soon{
   font-size: 24px;

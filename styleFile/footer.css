@@ -16,14 +16,16 @@
 .copyright{
   flex: 1;
   margin: 0;
-  color: var(--bg-black);
-  padding-left: 5%;
+  margin-top: 0.5%;
+  color: var(--bg-dark-footer);
+  margin-left: 8%;
   font-family: "Gaegu", sans-serif;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .socials{
+  margin-top: 0.5%;
   flex: 0.3;
   display: flex;
   align-items: center;
@@ -31,10 +33,10 @@
 
   text-decoration: none;
 
-  color: var(--bg-black);
+  color: var(--bg-dark-footer);
   font-family: "Gaegu", sans-serif;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .twt, .linkedin, .github {

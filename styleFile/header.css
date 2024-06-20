@@ -23,7 +23,12 @@
   font-size: 48px;
   color: var(--blue-dark);
   text-decoration: none;
+  
+  transition: 300ms;
 
+}
+.vf-button:hover{
+  color: var(--purple-dark);
 }
 
 .buttons {
@@ -43,7 +48,7 @@
   font-family: "Gaegu", sans-serif;
   font-weight: bold;
   font-size: 32px;
-  color: var(--bg-black);
+  color: var(--bg-dark-footer);
   text-decoration: none;
 }
 .button:hover {
