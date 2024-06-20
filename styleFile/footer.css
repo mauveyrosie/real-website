@@ -52,7 +52,10 @@
 }
 
 .star-switch{
-  margin-top: 0.33%;
-  margin-bottom: 0.33%;
-  margin-right: 2.5%;
+  display: flex;
+}
+.empty-space-footer{
+  display: flex;
+  width: 35px;
+  height: 50px;
 }

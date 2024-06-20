@@ -1,0 +1,62 @@
+.footer{
+    background-color: var(--bg-dark-footer);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+  }
+  
+  .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  .copyright{
+    flex: 1;
+    margin: 0;
+    margin-top: 0.5%;
+    color: var(--beige-light);
+    margin-left: 8%;
+    font-family: "Gaegu", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .socials{
+    margin-top: 0.5%;
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+    text-decoration: none;
+  
+    color: var(--beige-light);
+    font-family: "Gaegu", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .twt, .linkedin, .github {
+    cursor: pointer;
+    transition: 250ms;
+  
+    text-decoration: none;
+    color: var(--beige-light);
+  }
+  
+  .twt:hover, .linkedin:hover, .github:hover {
+    color: var(--blue-dark)
+  }
+  
+  .star-switch{
+    display: flex;
+    
+  }
+  .empty-space-footer{
+    display: flex;
+    width: 35px;
+    height: 50px;
+  }

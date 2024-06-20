@@ -1,0 +1,62 @@
+
+.header {
+    margin-top: 1%;
+    text-align: center;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  
+  .home-button {
+    flex: 1; /* Takes up remaining space */
+    text-align: center; /* Centers the content inside */
+  }
+  
+  .vf-button{
+    font-family: "Gaegu", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: var(--blue-dark);
+    text-decoration: none;
+    
+    transition: 300ms;
+  
+  }
+  .vf-button:hover{
+    color: var(--blue-light);
+  }
+  
+  .buttons {
+    flex: 2; 
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .button {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: 350ms ease;
+    cursor: pointer;
+  
+    font-family: "Gaegu", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: var(--bg-white);
+    text-decoration: none;
+  }
+  .button:hover {
+    background-color: var(--blue-dark);
+  }
+  .extra-space{
+    flex: 0.1;
+  }
+  .extra-space-out{
+    flex: 0.25;
+  }
