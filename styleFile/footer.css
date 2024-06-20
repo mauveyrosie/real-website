@@ -1,79 +1,56 @@
-:root {
-  --beige-dark: #D2C8AE;
-  --beige-light: #F8F3E2;
-  --blue-dark: #5C6E92;
-  --blue-light: #7B97B8;
-  --purple-dark: #716587;
-  --purple-light: #927CA1;
-  --yellow-dark: #E0B31E;
-  --yellow-light: #F1D576;
-  --green-dark: #3D553D;
-  --green-light: #769071;
-
-  /*--text-color: #3A3D46;*/
-  --bg-white: #FEFCF7;
-  --bg-black: #28232A;
-  --bg-dark-footer: #332A38;
-}
-.footer {
-  position: fixed;
-  height: 6%;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+.footer{
   background-color: var(--blue-light);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  position: absolute;
+}
 
-  /* text */
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.copyright{
+  flex: 1;
+  margin: 0;
   color: var(--bg-black);
-  padding-left: 150px;
+  padding-left: 5%;
   font-family: "Gaegu", sans-serif;
   font-weight: bold;
   font-size: 24px;
 }
 
-.footer-container {
+.socials{
+  flex: 0.3;
   display: flex;
-}
-
-.socials {
-  margin-left: 50%;
-  margin-top: 24px;
-}
-.github {
-  margin-left: 10px;
-  display: inline;
-  cursor: pointer;
-  transition: 250ms;
+  align-items: center;
+  justify-content: space-evenly;
 
   text-decoration: none;
-  color: var(--text-color)
-}
-.ig:hover {
-  color: var(--blue-main);
+
+  color: var(--bg-black);
+  font-family: "Gaegu", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
 }
 
-.twt {
-  margin-left: 10px;
-  display: inline;
+.twt, .linkedin, .github {
   cursor: pointer;
   transition: 250ms;
 
   text-decoration: none;
   color: var(--text-color);
 }
-.twt:hover{
-  color:var(--blue-main)
+
+.twt:hover, .linkedin:hover, .github:hover {
+  color: var(--blue-dark)
 }
 
-.linkedin {
-  margin-left: 10px;
-  display: inline;
-  cursor: pointer;
-  transition: 250ms;
-
-  text-decoration: none;
-  color: var(--text-color);
-}
-.linkedin:hover{
-  color: var(--blue-main);
+.star-switch{
+  margin-top: 0.33%;
+  margin-bottom: 0.33%;
+  margin-right: 2.5%;
 }

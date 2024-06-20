@@ -37,7 +37,8 @@
   text-decoration: none;
   padding: 5px 10px;
   border-radius: 20px;
-  transition: 0.3s ease;
+  transition: 350ms ease;
+  cursor: pointer;
 
   font-family: "Gaegu", sans-serif;
   font-weight: bold;
