@@ -1,11 +1,7 @@
-
-.home-divider{
-  margin-top: 2%;
-  margin-bottom: 2%;
-  width: 60%;
-}
 .about-section{
+  height: 75vh;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 .about-text{

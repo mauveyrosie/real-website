@@ -1,0 +1,80 @@
+.body{
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+}
+
+.entriesList{
+  display: flex;
+  flex-direction: column;
+}
+.listTitle{
+  margin-bottom: 0;
+  color: var(--bg-black);
+  font-family: "Gaegu", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+}
+.listItems, .takeMeSomewhere{
+  margin: 0;
+  color: var(--bg-black);
+  font-family: "Gaegu", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  list-style-type: disc;
+  text-decoration: none;
+
+  transition: 300ms ease;
+}
+.listItems:hover{
+  text-decoration: underline;
+}
+.takeMeSomewhere{
+  margin-left: 40.75px;
+}
+.takeMeSomewhere:hover{
+  color: var(--green-dark);
+  font-weight: bold;
+}
+
+.divider{
+  height: 650px;
+  width: 1px;
+  background-color: var(--bg-black);
+  margin-left: 80px;
+  margin-right: 50px;
+}
+
+.entry{
+  display: flex;
+  flex-direction: column;
+
+  
+}
+
+.entryTitle{
+  font-family: "Cormorant Garamond", serif;
+  font-size: 48px;
+  font-weight: bold;
+  columns: var(--bg-black);
+
+  width: 100vh;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+.entryInfo{
+  display: flex;
+  justify-content: space-between;
+
+  font-family: "Gaegu", sans-serif;
+  font-size: 24px;
+  color: var(--bg-black);
+}
+.entryAuthor, .entryTags{
+  margin: 0;
+}
+.entryText{
+  font-family: "Noto Sans", Arial, sans-serif;
+  font-size: 16px;
+  color: var(--bg-black);
+}
