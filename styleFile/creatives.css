@@ -1,0 +1,52 @@
+p{
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 2px;
+}
+.text{
+  font-weight: 400;
+  font-family: "Noto Sans";
+  margin: 0px;
+  font-size: 16px;
+}
+.creatives_title{
+  text-align: center;
+}
+.gallery_row{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: space-evenly;
+}
+
+.gallery_column{
+  display: flex;
+  flex-direction: column;
+  flex: 23%;
+  max-width: 23%;
+  padding: 0 4px;
+}
+
+.gallery_column img {
+  margin-top: 20px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
