@@ -50,3 +50,66 @@ p{
     max-width: 100%;
   }
 }
+
+/* me being lazy -> footer for creatives only */
+.footer{
+  background-color: var(--blue-light);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  align-self: flex-end;
+}
+
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.copyright{
+  flex: 1;
+  margin: 0;
+  margin-top: 0.5%;
+  color: var(--bg-dark-footer);
+  margin-left: 8%;
+  font-family: "Gaegu", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.socials{
+  margin-top: 0.5%;
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  text-decoration: none;
+
+  color: var(--bg-dark-footer);
+  font-family: "Gaegu", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.twt, .linkedin, .github {
+  cursor: pointer;
+  transition: 250ms;
+
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.twt:hover, .linkedin:hover, .github:hover {
+  color: var(--blue-dark)
+}
+
+.star-switch{
+  display: flex;
+}
+.empty-space-footer{
+  display: flex;
+  width: 35px;
+  height: 50px;
+}
